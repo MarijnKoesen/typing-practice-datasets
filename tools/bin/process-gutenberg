@@ -1,0 +1,55 @@
+#!/bin/bash
+#
+# Script that extracts a gutenberg .zim file, extracts all books, converts to to epub and dumps them into an output
+# directory.
+# Usage: $0 <gutenberg-zim-file> <output-directory>
+
+if [ $# -ne 2 ]; then
+  echo "Usage: $0 <gutenberg-zim-file> <output-directory>"
+  exit 1
+fi
+
+if [ ! -f "$1" ]; then
+  echo "Gutenberg file $1 is not a file"
+  exit 1
+fi
+
+if [ ! -d "$2" ]; then
+  echo "Gutenberg file $1 is not a file"
+  exit 1
+fi
+
+if [ ! $(command -v "epub2txt") ]; then
+  echo "epub2txt is not installed"
+  exit 1
+fi
+
+TEMPDIR=`realpath $(mktemp -d)`
+OUTDIR=`realpath $2`
+
+echo "Checking $1 integrity..."
+zimcheck $1 >/dev/null
+
+echo "Extracting $1 to $TEMPDIR..."
+zimdump dump $1 --dir=$TEMPDIR >/dev/null
+
+echo "Converting epub to txt (this can take a few minutes)..."
+for book in $TEMPDIR/*.epub; do
+  [ -f "$book" ] || continue
+
+  echo -n "."
+  epub2txt --filename "$book" --dest=$OUTDIR/book.txt 2>/dev/null
+done
+echo ""
+
+echo "Stripping Project Gutenberg footer (to not mix languages)..."
+for book in $OUTDIR/*.txt; do
+  [ -f "$book" ] || continue
+
+  echo -n "."
+  sed -i '/END OF THE PROJECT GUTENBER/,$d' $book
+done
+echo ""
+
+rm -rf $TEMPDIR
+echo "Done"
