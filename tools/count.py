@@ -32,7 +32,7 @@ for f in args.files:
 
         words.update(
             map(
-                lambda word: word if args.no_lower else word.lower(),
+                lambda word: word if args.dont_lowercase else word.dont_lowercase(),
                 filter(
                     lambda word: (args.non_alpha == True or word.isalpha()) and len(word) >= args.minimum_length and len(word) <= args.maximum_length,
                     wordsInFile
@@ -58,13 +58,13 @@ if args.trigrams:
     od = collections.OrderedDict(sorted(trigrams.items(), key = lambda x:(-x[1],x[0])))
     for word, count in list(od.items())[0:args.num]:
         if args.raw:
-            print(word, end=" ")
+            print(word)
         else:
-            print(count, word)
+            print(word, count)
 else:
     for word, count in words.most_common(args.num):
         if args.raw:
-            print(word, end=" ")
+            print(word)
         else:
-            print(count, word)
+            print(word, count)
 
