@@ -6,19 +6,38 @@ From different natural languages to programming languages.
 
 It also contains tools to generate more datasets from known, free, sources.
 
+## Current datasets
+
+Currently this repo contains a few different typing sets:
+
+### Languages
+
+```shell
+datasets/
+  languages/
+    dutch/
+    english/
+    finnish/
+    french/
+    german/
+    hungarian/
+    italian/
+    norwegian/
+    polish/
+    portugese/
+    spanish/
+```
+
+### Programming
+
+```shell
+datasets/
+  programming/
+    golang/
+```
 
 ## Contributing
 
-Adding a programming language ideally is done by cloning a few open source repo's and running analysis on them, for
-example:
+Contributions are welcome!
 
-```shell
-mkdir go-repos/
-git clone --depth=1 https://github.com/golang/go/ go-repos/go
-git clone --depth=1 https://github.com/kubernetes/kubernetes go-repos/kubernetes
-git clone --depth=1 https://github.com/kubernetes/client-go go-repos/kubernetes-client
-git clone --depth=1 https://github.com/spf13/cobra go-repos/cobra
-git clone --depth=1 https://github.com/cli/cli go-repos/github-cli
-git clone --depth=1 https://github.com/gohugoio/hugo go-repos/hugo
-tools/count.py --num=10000 --dont-lowercase --non-alpha --minimum-length=1 go-repos/**/*.go > datasets/programming/golang.top.10000.txt
-```
+See the `README.md` in the different datasets on how to generate more and contribute to the project.
