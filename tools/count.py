@@ -32,7 +32,7 @@ for f in args.files:
 
         words.update(
             map(
-                lambda word: word if args.dont_lowercase else word.dont_lowercase(),
+                lambda word: word if args.dont_lowercase else word.lower(),
                 filter(
                     lambda word: (args.non_alpha == True or word.isalpha()) and len(word) >= args.minimum_length and len(word) <= args.maximum_length,
                     wordsInFile

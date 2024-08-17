@@ -81,32 +81,3 @@ $ count.py --num=10 --non-alpha --minimum-length=1 go-src/**/*.go
 ```
 
 
-## Generating natural language sets from Gutenberg
-
-Using the provided tools it's easy to generate a training set based on the freely available books from [Project Gutenberg](https://www.gutenberg.org/).
-
-1) First download the`.zim` archive with all the Gutenberg books for your wanted language: https://download.kiwix.org/zim/gutenberg/
-
-2) Next convert all the books into the text format:
-
-```shell
-cd typing-practice-datasets/tools/
-docker build -t typing-practice-datasets:latest .
-
-mkdir gutenberg-texts/
-docker run \
-  --rm \
-  -v $PWD/gutenberg-texts:/dest \
-  -v $PWD/gutenberg_en_all_2023-08.zim:/gutenberg-archive.zim \
-  typing-practice-datasets:latest \
-  process-gutenberg /gutenberg-archive.zim /dest/
-```
-
-3) Check the contents of the `gutenberg-texts/` folder, you will find all the books extracted as `txt` here.
-
-4) Use the `tools/count.py` script to create the statistics, for example:
- 
-```shell
-$ count.py -n 10000 gutenberg-texts/*.txt > datasets/languages/english/top.10000.words.txt
-$ count.py -n 100 --trigrams gutenberg-texts/*.txt > datasets/languages/english/top.100.trigrams.txt
-```

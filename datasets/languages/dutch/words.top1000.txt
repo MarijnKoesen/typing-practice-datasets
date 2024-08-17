@@ -148,8 +148,8 @@ altijd 28951
 heel 28797
 vrouw 28708
 zelf 28252
-oogen 28162
 me 28162
+oogen 28162
 weet 27964
 ter 27726
 zouden 27494
@@ -246,8 +246,8 @@ werk 16741
 elkander 16581
 binnen 16509
 wijze 16501
-uur 16363
 terug 16363
+uur 16363
 vol 16178
 scheen 16157
 hart 16083
@@ -461,8 +461,8 @@ dieren 8248
 omtrent 8200
 strijd 8122
 prins 8108
-uren 8017
 namen 8017
+uren 8017
 gezien 8005
 dezer 7985
 eigenlijk 7964
@@ -514,8 +514,8 @@ behalve 7307
 afstand 7303
 brief 7278
 beweging 7272
-gevoel 7271
 eenigen 7271
+gevoel 7271
 elke 7240
 paard 7236
 beneden 7227
@@ -575,9 +575,9 @@ hooren 6462
 waarmede 6452
 nou 6425
 boek 6422
-inderdaad 6406
 hulp 6406
 bestaan 6406
+inderdaad 6406
 he 6396
 vreemde 6383
 houdt 6356
@@ -593,8 +593,8 @@ goeden 6273
 kop 6260
 bloed 6259
 wees 6255
-intusschen 6248
 snel 6248
+intusschen 6248
 rivier 6233
 neemt 6228
 broeder 6217
@@ -751,8 +751,8 @@ net 4921
 valt 4895
 aandacht 4894
 onzer 4894
-boord 4867
 bevel 4867
+boord 4867
 dergelijke 4867
 jongens 4866
 deden 4861
@@ -760,8 +760,8 @@ sprong 4857
 hard 4830
 volgde 4796
 huizen 4793
-trad 4792
 beeld 4792
+trad 4792
 deeze 4792
 borst 4783
 gelegen 4769
@@ -851,8 +851,8 @@ zuster 4262
 harer 4260
 los 4257
 begint 4251
-vorst 4245
 hetwelk 4245
+vorst 4245
 vleesch 4240
 loopen 4232
 voorbeeld 4226
@@ -869,14 +869,14 @@ bezoek 4181
 iedereen 4174
 geboren 4173
 beteekenis 4172
-europa 4171
 karakter 4171
+europa 4171
 lord 4165
 hof 4162
 voldoende 4156
 genoegen 4138
-manier 4131
 nimmer 4131
+manier 4131
 vriendelijk 4120
 oorzaak 4110
 voortdurend 4107
@@ -932,8 +932,8 @@ stellen 3904
 ouders 3903
 velen 3900
 school 3898
-vreemd 3897
 maakten 3897
+vreemd 3897
 geluid 3895
 lieden 3894
 haalde 3893
@@ -965,8 +965,8 @@ noorden 3763
 zachte 3744
 uitdrukking 3736
 stroom 3736
-twaalf 3735
 loopt 3735
+twaalf 3735
 blauwe 3731
 boog 3728
 geweld 3721
@@ -974,8 +974,8 @@ zoeken 3719
 waarlijk 3711
 rome 3709
 korten 3705
-iederen 3698
 daarentegen 3698
+iederen 3698
 bekende 3693
 verband 3690
 weken 3687

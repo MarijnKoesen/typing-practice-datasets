@@ -148,8 +148,8 @@ altijd
 heel
 vrouw
 zelf
-oogen
 me
+oogen
 weet
 ter
 zouden
@@ -246,8 +246,8 @@ werk
 elkander
 binnen
 wijze
-uur
 terug
+uur
 vol
 scheen
 hart
@@ -461,8 +461,8 @@ dieren
 omtrent
 strijd
 prins
-uren
 namen
+uren
 gezien
 dezer
 eigenlijk
@@ -514,8 +514,8 @@ behalve
 afstand
 brief
 beweging
-gevoel
 eenigen
+gevoel
 elke
 paard
 beneden
@@ -575,9 +575,9 @@ hooren
 waarmede
 nou
 boek
-inderdaad
 hulp
 bestaan
+inderdaad
 he
 vreemde
 houdt
@@ -593,8 +593,8 @@ goeden
 kop
 bloed
 wees
-intusschen
 snel
+intusschen
 rivier
 neemt
 broeder
@@ -751,8 +751,8 @@ net
 valt
 aandacht
 onzer
-boord
 bevel
+boord
 dergelijke
 jongens
 deden
@@ -760,8 +760,8 @@ sprong
 hard
 volgde
 huizen
-trad
 beeld
+trad
 deeze
 borst
 gelegen
@@ -851,8 +851,8 @@ zuster
 harer
 los
 begint
-vorst
 hetwelk
+vorst
 vleesch
 loopen
 voorbeeld
@@ -869,14 +869,14 @@ bezoek
 iedereen
 geboren
 beteekenis
-europa
 karakter
+europa
 lord
 hof
 voldoende
 genoegen
-manier
 nimmer
+manier
 vriendelijk
 oorzaak
 voortdurend
@@ -932,8 +932,8 @@ stellen
 ouders
 velen
 school
-vreemd
 maakten
+vreemd
 geluid
 lieden
 haalde
@@ -965,8 +965,8 @@ noorden
 zachte
 uitdrukking
 stroom
-twaalf
 loopt
+twaalf
 blauwe
 boog
 geweld
@@ -974,8 +974,8 @@ zoeken
 waarlijk
 rome
 korten
-iederen
 daarentegen
+iederen
 bekende
 verband
 weken

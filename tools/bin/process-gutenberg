@@ -15,7 +15,7 @@ if [ ! -f "$1" ]; then
 fi
 
 if [ ! -d "$2" ]; then
-  echo "Gutenberg file $1 is not a file"
+  echo "Output directory $2 is not a directory"
   exit 1
 fi
 
@@ -42,7 +42,7 @@ for book in $TEMPDIR/*.epub; do
 done
 echo ""
 
-echo "Stripping Project Gutenberg footer (to not mix languages)..."
+echo "Stripping Project Gutenberg footer (to not mix languages, otherwise we'll have english in other languages because of the included license)..."
 for book in $OUTDIR/*.txt; do
   [ -f "$book" ] || continue
 
