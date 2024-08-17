@@ -15,8 +15,10 @@ Currently this repo contains a few different typing sets:
 ```shell
 datasets/
   languages/
-    dutch/
     english/
+      words.top10000.txt
+      trigrams.top1000.txt
+    dutch/
     finnish/
     french/
     german/
